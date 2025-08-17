@@ -6,7 +6,7 @@ A full-stack application that transforms lengthy meeting transcripts into clear,
 
 ---
 
-## ✨ Features
+## Features
 
 * **Upload/Paste Transcripts:** Users can easily input long-form text from meetings or calls.
 * **Custom Prompts:** Guide the AI with specific instructions (e.g., "summarize for executives," "extract only action items").
@@ -14,12 +14,10 @@ A full-stack application that transforms lengthy meeting transcripts into clear,
 * **Editable Output:** The generated summary can be edited and refined directly in the user interface.
 * **Email Sharing:** Share the final summary with multiple recipients via email.
 
-## 📸 Screenshot
+## Screenshot
 
-![Screenshot of the AI Meeting Summarizer Application](https://i.imgur.com/your-screenshot-url.png)
-*(**Action:** Take a nice screenshot of your app, upload it to a site like [Imgur](https://imgur.com/upload), and paste the link here.)*
+<img width="1895" height="973" alt="image" src="https://github.com/user-attachments/assets/4bff7331-32c5-4cd7-8bf4-4cd98b3d89a6" />
 
----
 
 ## 🛠️ Tech Stack
 
@@ -61,7 +59,7 @@ Follow these instructions to set up and run the project locally.
     ```
     GROQ_API_KEY="your_groq_api_key_here"
     EMAIL_HOST="smtp.gmail.com"
-    EMAIL_PORT=465
+    EMAIL_PORT=587
     EMAIL_USER="your-email@gmail.com"
     EMAIL_PASS="your-16-digit-google-app-password"
     ```
@@ -85,7 +83,7 @@ Follow these instructions to set up and run the project locally.
 
 ---
 
-## 🌐 Deployment
+## Deployment
 
 The application is deployed with a decoupled architecture:
 * The **React frontend** is hosted on **Vercel**, providing a fast global CDN and seamless CI/CD from the `frontend` directory.
@@ -93,7 +91,7 @@ The application is deployed with a decoupled architecture:
 
 ---
 
-## 🌟 Future Improvements
+## Future Improvements
 
 * **User Authentication:** Add user accounts to save and manage past summaries.
 * **Database Integration:** Use MongoDB to store user data and summaries.
