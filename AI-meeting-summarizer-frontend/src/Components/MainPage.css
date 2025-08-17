@@ -1,0 +1,95 @@
+body {
+    background-color: #fdf8f0; /* Soft Off-White/Cream */
+    color: #5d576b; /* Muted Dark Purple for Text */
+    font-family: 'Poppins', sans-serif;
+}
+
+.App-header {
+    text-align: center;
+    padding: 20px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 20px;
+    align-items: flex-start;
+}
+
+.panel {
+    background-color: #ffffff; /* Clean White Panel */
+    padding: 30px;
+    border-radius: 12px;
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #eee;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05); /* Soft, subtle shadow */
+}
+
+h1 {
+    font-family: 'Lora', serif;
+    color: #5d576b;
+    font-size: 2.5em;
+}
+
+h2 {
+    font-family: 'Lora', serif;
+    color: #e88873; /* Terracotta Accent Color */
+    border-bottom: 2px solid #f0e9e0;
+    padding-bottom: 10px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+textarea, input[type="text"], input[type="email"] {
+    width: 95%;
+    padding: 14px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    background-color: #fdf8f0;
+    color: #5d576b;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+}
+
+textarea:focus, input[type="text"]:focus, input[type="email"]:focus {
+    outline: none;
+    border-color: #e88873;
+    box-shadow: 0 0 0 2px rgba(232, 136, 115, 0.2);
+}
+
+button {
+    padding: 14px 20px;
+    border-radius: 8px;
+    border: none;
+    background-color: #e88873; /* Primary Action Color */
+    color: #ffffff; /* White Text on Button */
+    font-size: 16px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: all 0.2s ease-in-out;
+}
+
+button:hover {
+    background-color: #d97863; /* Slightly darker shade for hover */
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    transform: translateY(-2px);
+}
+
+button:disabled {
+    background-color: #ccc;
+    color: #888;
+    cursor: not-allowed;
+    box-shadow: none;
+    transform: none;
+}
+
+.status-message {
+    margin-top: 20px;
+    font-size: 1.1em;
+    font-weight: bold;
+    color: #5d576b;
+}
